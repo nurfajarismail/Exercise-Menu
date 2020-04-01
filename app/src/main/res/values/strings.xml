@@ -4,6 +4,8 @@
     <string name="user">Username</string>
     <string name="pass">Password</string>
     <string name="mk_user">Masukkan Username</string>
+    <string name="mk_pass">Masukkan Password</string>
+    <string name="sign">SIGN_IN</string>
 
 
 
