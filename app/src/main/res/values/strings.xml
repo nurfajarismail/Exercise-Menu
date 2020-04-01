@@ -6,12 +6,14 @@
     <string name="mk_user">Masukkan Username</string>
     <string name="mk_pass">Masukkan Password</string>
     <string name="sign">SIGN_IN</string>
-
-
-
-
-
-
+    <string name="judul_menu">Menu Hitung Bangun Datar</string>
+    <string name="htg_persegi">Menghitung Persegi</string>
+    <string name="htg_lingkar">Menghitung Lingkaran</string>
+    <string name="htg_pp">Menghitung Persegi Panjang</string>
+    <string name="htg_segitiga">Menghitung Segitiga</string>
+    <string name="htg_trapesium">Menghitung Trapesium</string>
+    <string name="htg_luas">Hitung Luas</string>
+    <string name="htg_keliling">Hitung Keliling</string>
 
 
 
