@@ -17,7 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".main2" android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".luas" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".kelilinglingkar" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".kelilingpersegi" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".kelilingpp" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".kelilingsegitiga" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".kelilingtrapes" android:parentActivityName=".MainActivity"></activity>
+
+        <activity android:name=".luasling" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".luasperseg" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".luaspp" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".luassgtg" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".luastrapes" android:parentActivityName=".MainActivity"></activity>
+
+
 
     </application>
 

@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
 
             android:layout_marginTop="50dp"
-            android:text="@string/htg_luas"
+            android:text="@string/htg_keliling_persegip"
             android:textAlignment="center"
             android:clickable="true"
 

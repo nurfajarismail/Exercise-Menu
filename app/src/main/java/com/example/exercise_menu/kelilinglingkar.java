@@ -5,11 +5,10 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class luas extends AppCompatActivity {
-
+public class kelilinglingkar extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.luas);
+        setContentView(R.layout.kelilinglingakan);
     }
 }

@@ -5,7 +5,7 @@
     <string name="pass">Password</string>
     <string name="mk_user">Masukkan Username</string>
     <string name="mk_pass">Masukkan Password</string>
-    <string name="sign">SIGN_IN</string>
+    <string name="sign">SIGN-IN</string>
     <string name="judul_menu">Menu Hitung Bangun Datar</string>
     <string name="htg_persegi">Menghitung Persegi</string>
     <string name="htg_lingkar">Menghitung Lingkaran</string>
@@ -13,7 +13,18 @@
     <string name="htg_segitiga">Menghitung Segitiga</string>
     <string name="htg_trapesium">Menghitung Trapesium</string>
     <string name="htg_luas">Hitung Luas</string>
-    <string name="htg_keliling">Hitung Keliling</string>
+    <string name="htg_keliling_persegi">Keliling Persegi</string>
+ <string name="htg_keliling_persegip">Keliling Persegi Panjang</string>
+ <string name="htg_keliling_ling">Keliling Lingkaran</string>
+ <string name="htg_keliling_s3">Keliling Segitiga</string>
+ <string name="htg_keliling_trapesium">Keliling Trapesium</string>
+
+ <string name="htg_luas_persg">Luas Persegi</string>
+ <string name="htg_luas_ling">Luas Lingkaran</string>
+ <string name="htg_luas_pp">Luas Persegi Panjang</string>
+ <string name="htg_luas_se3">Luas Segitiga</string>
+ <string name="htg_luas_trape">Luas Trapesium</string>
+
 
 
 

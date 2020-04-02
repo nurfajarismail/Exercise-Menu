@@ -22,10 +22,46 @@ public class main2 extends AppCompatActivity {
         setContentView(R.layout.main2);
 
         persegi=(TextView) findViewById(R.id.persegii);
+        lingkran=(TextView)findViewById(R.id.lingkaran);
+        pp=(TextView)findViewById(R.id.ppanjang);
+        segitiga=(TextView)findViewById(R.id.segitiga);
+        trapesium=(TextView) findViewById(R.id.trapesium) ;
         persegi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDialog();
+                showDialogpersegi();
+            }
+
+
+        });
+        lingkran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialoglingkaran();
+            }
+
+
+        });
+        pp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogpp();
+            }
+
+
+        });
+        segitiga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogsegitiga();
+            }
+
+
+        });
+        trapesium.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialogtrapes();
             }
 
 
@@ -35,7 +71,7 @@ public class main2 extends AppCompatActivity {
 
     }
 
-    private void showDialog(){
+    private void showDialogpersegi(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
                 this);
 
@@ -43,17 +79,152 @@ public class main2 extends AppCompatActivity {
 
 
         // set pesan dari dialog
-        final String[] animals = {"Hitung Luas", "Hitung Keliling",};
-        alertDialogBuilder.setItems(animals, new DialogInterface.OnClickListener() {
+        final String[] dialog = {"Hitung Luas", "Hitung Keliling",};
+        alertDialogBuilder.setItems(dialog, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
                     case 0:{
 
-                            startActivity(new Intent(main2.this, luas.class));
+                        startActivity(new Intent(main2.this, luasperseg.class));
 
-                    }
-                    case 1:
+                    }break;
+                    case 1:{
+                        startActivity(new Intent(main2.this, luasperseg.class));
+                    }break;
+                    default:
+
+                }
+            }
+        });
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
+    }
+    private void showDialoglingkaran(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+
+
+        // set pesan dari dialog
+        final String[] dialog = {"Hitung Luas", "Hitung Keliling",};
+        alertDialogBuilder.setItems(dialog, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case 0:{
+
+                        startActivity(new Intent(main2.this, luasling.class));
+
+                    }break;
+                    case 1:{
+                        startActivity(new Intent(main2.this, kelilinglingkar.class));
+                    }break;
+                    default:
+
+                }
+            }
+        });
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
+    }
+    private void showDialogpp(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+
+
+        // set pesan dari dialog
+        final String[] dialog = {"Hitung Luas", "Hitung Keliling",};
+        alertDialogBuilder.setItems(dialog, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case 0:{
+
+                        startActivity(new Intent(main2.this, luaspp.class));
+
+                    }break;
+                    case 1:{
+                        startActivity(new Intent(main2.this, kelilingpp.class));
+                    }break;
+                    default:
+
+                }
+            }
+        });
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
+    }
+    private void showDialogsegitiga(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+
+
+        // set pesan dari dialog
+        final String[] dialog = {"Hitung Luas", "Hitung Keliling",};
+        alertDialogBuilder.setItems(dialog, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case 0:{
+
+                        startActivity(new Intent(main2.this, luassgtg.class));
+
+                    }break;
+                    case 1:{
+                        startActivity(new Intent(main2.this, kelilingsegitiga.class));
+                    }break;
+                    default:
+
+                }
+            }
+        });
+
+        // membuat alert dialog dari builder
+        AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // menampilkan alert dialog
+        alertDialog.show();
+    }
+    private void showDialogtrapes(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
+                this);
+
+        // set title dialog
+
+
+        // set pesan dari dialog
+        final String[] dialog = {"Hitung Luas", "Hitung Keliling",};
+        alertDialogBuilder.setItems(dialog, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which) {
+                    case 0:{
+
+                        startActivity(new Intent(main2.this, luastrapes.class));
+
+                    }break;
+                    case 1:{
+                        startActivity(new Intent(main2.this, kelilingtrapes.class));
+                    }break;
+                    default:
 
                 }
             }
