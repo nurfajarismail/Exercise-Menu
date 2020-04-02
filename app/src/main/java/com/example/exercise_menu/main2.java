@@ -2,6 +2,7 @@ package com.example.exercise_menu;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,12 +43,16 @@ public class main2 extends AppCompatActivity {
 
 
         // set pesan dari dialog
-        String[] animals = {"Hitung Luas", "Hitung Keliling",};
+        final String[] animals = {"Hitung Luas", "Hitung Keliling",};
         alertDialogBuilder.setItems(animals, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 switch (which) {
-                    case 0:
+                    case 0:{
+
+                            startActivity(new Intent(main2.this, luas.class));
+
+                    }
                     case 1:
 
                 }

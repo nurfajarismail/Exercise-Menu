@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".main2" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".luas" android:parentActivityName=".MainActivity"></activity>
 
     </application>
 
