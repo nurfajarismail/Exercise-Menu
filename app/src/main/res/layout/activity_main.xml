@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorhijaup"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -26,6 +27,7 @@
             android:layout_marginTop="50dp"
             android:text="@string/judul"
             android:textAlignment="center"
+          android:textColor="@color/colorhh"
 
             android:textSize="35dp"
             android:textStyle="bold"/>
@@ -52,8 +54,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
+
                     android:hint="@string/mk_user"
                     android:inputType="textPersonName"
+
+
+
 
                     />
 
@@ -96,6 +102,7 @@
                 android:layout_gravity="end"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
+                android:background="@color/colorkuning"
 
                 android:text="@string/sign"/>
         </LinearLayout>
