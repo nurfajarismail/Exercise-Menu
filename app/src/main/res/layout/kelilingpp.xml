@@ -8,6 +8,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:orientation="vertical">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pp" />
 
 
         <TextView
@@ -22,6 +26,58 @@
 
             android:textSize="30dp"
             android:textStyle="bold" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_lebar"
+
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+
+                android:inputType="number"
+
+
+
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_panjang"
+
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+
+                android:inputType="number"
+
+
+
+
+                />
+
+        </TableRow>
 
 
 

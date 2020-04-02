@@ -24,11 +24,17 @@
  <string name="htg_luas_pp">Luas Persegi Panjang</string>
  <string name="htg_luas_se3">Luas Segitiga</string>
  <string name="htg_luas_trape">Luas Trapesium</string>
-
-
-
-
-
+ <string name="persegi_sisi">Masukkan sisi</string>
+ <string name="lingkaran_jari">Masukkan jari-jari</string>
+<string name="pp_panjang">Masukkan panjang</string>
+<string name="pp_lebar">Masukkan lebar</string>
+<string name="segitiga_alas">Masukkan alas</string>
+<string name="segitiga_tinggi">Masukkan tinggi</string>
+ <string name="segitiga_sisimiring">Masukkan sisi miring</string>
+<string name="tra_atas">Masukkan sisi BC</string>
+ <string name="tra_bawah">Masukkan sisi AD</string>
+ <string name="tra_SAMPING">Masukkan sisi AB</string>
+ <string name="tra_tinggi">Masukkan sisi t</string>
 
 
 
