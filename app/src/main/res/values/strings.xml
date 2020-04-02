@@ -13,6 +13,7 @@
     <string name="htg_segitiga">Menghitung Segitiga</string>
     <string name="htg_trapesium">Menghitung Trapesium</string>
     <string name="htg_luas">Hitung Luas</string>
+ <string name="htg_kel">Hitung Keliling</string>
     <string name="htg_keliling_persegi">Keliling Persegi</string>
  <string name="htg_keliling_persegip">Keliling Persegi Panjang</string>
  <string name="htg_keliling_ling">Keliling Lingkaran</string>
